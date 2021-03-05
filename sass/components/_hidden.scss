@@ -1,0 +1,28 @@
+.hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 155, 125, 0.8) 49%,
+    rgba(255, 245, 127, 0.8) 100%
+  );
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &-socials {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    right: 24px;
+    transition-property: all;
+    transform: translate(-10px, -10px);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+  }
+}

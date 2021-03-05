@@ -1,0 +1,12 @@
+.input {
+  width: 250px;
+  height: 40px;
+  padding: 15px;
+  border: 1px solid $lightGrey;
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: $lightGrey;
+}

@@ -1,0 +1,33 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: -20px;
+  &__list {
+    display: flex;
+    width: 363px;
+    margin: 20px;
+    &-svg {
+      width: 30px;
+      height: 30px;
+      fill: $aquamarine;
+    }
+  }
+  &__list-title {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  &__list-text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.svg {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  max-width: 450px;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-right: 20px;
+}

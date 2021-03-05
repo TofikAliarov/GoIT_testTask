@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  z-index: 999;
+  &__nav {
+    display: flex;
+  }
+  &__items {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    margin: auto;
+  }
+  &__item {
+    padding: 0 42px;
+  }
+  &__item-nav {
+    margin-right: auto;
+  }
+  &__item-logo {
+    padding: 16px 42px;
+    max-width: 153px;
+    width: 100%;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
